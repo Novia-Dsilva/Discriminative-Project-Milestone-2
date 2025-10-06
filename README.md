@@ -1,6 +1,5 @@
 # Discriminative-Project-Milestone-2
 
-# Celebrity Detection System using YOLOv8
 
 ## Objective
 
