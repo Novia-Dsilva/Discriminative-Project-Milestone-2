@@ -15,7 +15,7 @@ This project implements an end-to-end pipeline for multi-celebrity detection and
 
 2. **Data Augmentation**: Applied on-the-fly augmentation during training including rotation (5°), translation (10%), scaling, horizontal flipping, color transformations (HSV), mosaic, and mixup augmentation.
 
-3. **Model Training**: Custom trained YOLOv8 nano model for 50 epochs on 46 celebrity classes using transfer learning from pretrained COCO weights.
+3. **Model Training**: Custom trained YOLOv8 small model for 50 epochs on 46 celebrity classes using transfer learning from pretrained COCO weights.
 
 4. **Inference**: Deployed model to detect and identify all celebrities in test images, outputting celebrity IDs, names, confidence scores, and bounding box coordinates.
 
